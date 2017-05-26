@@ -1,0 +1,75 @@
+#title {
+	color: white;
+	float: left;
+	text-align: left;
+}
+
+body {
+	background: #09f;
+	text-transform: uppercase;
+	text-align: center;
+	font-family: "Russo One", "Montserrat", Arial;
+}
+
+#buy {
+	width: 30%;
+	background-color: green;
+	float: left;
+	margin: 1.66%;
+	height: 500px;
+	max-height: 500px;
+	padding-top: 40px;
+	color: green;
+	font-weight: 800;
+	border-radius: 25px;
+}
+#mine {
+	width: 30%;
+	background-color: blue;
+	float: left;
+	margin: 1.66%;
+	height: 500px;
+	max-height: 500px;
+	padding-top: 40px;
+	color: blue;
+	font-weight: 800;
+	border-radius: 25px;
+}
+#spend {
+	width: 30%;
+	background-color: red;
+	float: left;
+	margin: 1.66%;
+	height: 500px;
+	max-height: 500px;
+	padding-top: 40px;
+	color: red;
+	font-weight: 800;
+	border-radius: 25px;
+}
+
+#spend:hover{
+	opacity: .3;
+}
+#buy:hover{
+	opacity: .3;
+}
+#mine:hover{
+	opacity: .3;
+}
+
+hr {
+	border: 2px solid black;
+	width: 80%;
+	padding-bottom: 5px;
+	background-color: black;
+}
+
+img {
+	width: 90%;
+	border-radius: 50px;
+}
+
+ #price {
+	border: 1px solid black;
+}
