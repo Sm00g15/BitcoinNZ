@@ -1,0 +1,45 @@
+<% include partials/header%>
+
+<div class="container">
+	<header class="jumbotron">
+		<h1 align="center">BITCOIN NEW ZEALAND</h1>
+		<h3 align="center" id="marketPrice">Market Price: <%= data["NZD"]["avg_24h"] %></h3>
+		<hr width="70%">
+	</header>
+</div>
+
+<div class="container">
+	<div class="row">
+			<div class="col-md-4 col-sm-12">
+				<a href="https://localbitcoins.com/?ch=bef7">
+					<div id="buytn" class="thumbnail">
+						<img src="http://moneyweek.com/wp-content/uploads/2016/05/160504-bitcoin-b.jpg"></img>
+							<div id="buy" class="caption">
+								<h2>Buy Bitcoin</h2>
+							</div>
+					</div>
+				</a>
+			</div>
+			<div class="col-md-4 col-sm-12">
+				<a href="https://www.genesis-mining.com/a/18691">
+					<div id="minetn" class="thumbnail">
+						<img src="http://2.bp.blogspot.com/-uK7LaDSSyFE/Vhi2nrCu5iI/AAAAAAAAGE0/2Ht-q9oYO24/s1600/Bitcoin-mining.jpg"></img>
+						<div id="mine" class="caption">
+							<h2>Mine Bitcoin</h2>
+						</div>
+					</div>
+				</a>
+			</div>
+			<div class="col-md-4 col-sm-12">
+				<a href="https://localbitcoins.com/?ch=bef7">
+					<div id="spendtn" class="thumbnail">
+						<img src="http://insidebitcoins.com/wp-content/uploads/2015/06/Shapeshift_article_cover_Bitcoinist.png"></img>
+						<div id="spend" class="caption">
+							<h2>Trade Bitcoin</h2>
+						</div>
+					</div>
+				</a>
+			</div>
+		</div>
+	</div>
+<% include partials/footer%>

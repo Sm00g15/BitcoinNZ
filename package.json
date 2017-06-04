@@ -1,0 +1,24 @@
+{
+  "name": "bitcoinnz",
+  "version": "1.0.0",
+  "description": "Basic Bitcoin site template",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sm00g15/BitcoinNZ.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sm00g15/BitcoinNZ/issues"
+  },
+  "homepage": "https://github.com/Sm00g15/BitcoinNZ#readme",
+  "dependencies": {
+    "ejs": "^2.5.6",
+    "express": "^4.15.3",
+    "request": "^2.81.0"
+  }
+}
